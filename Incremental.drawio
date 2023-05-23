@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2023-05-23T17:44:30.627Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="zHRj_h4juyg_C5_yelce" version="21.3.2" type="device">
+  <diagram name="Page-1" id="8w_WPOLxQ_FXJUMfYoMx">
+    <mxGraphModel dx="2100" dy="1198" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4VjblVqr3etUKzkc-ujU-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="4VjblVqr3etUKzkc-ujU-1" target="4VjblVqr3etUKzkc-ujU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VjblVqr3etUKzkc-ujU-1" value="Decide on Coding language(1 hour)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="160" y="290" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4VjblVqr3etUKzkc-ujU-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="4VjblVqr3etUKzkc-ujU-2" target="4VjblVqr3etUKzkc-ujU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VjblVqr3etUKzkc-ujU-2" value="Setup Codebase(1 hour)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="400" y="290" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4VjblVqr3etUKzkc-ujU-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="4VjblVqr3etUKzkc-ujU-3" target="4VjblVqr3etUKzkc-ujU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VjblVqr3etUKzkc-ujU-3" value="Create Block Diagram (8 hours)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="640" y="290" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4VjblVqr3etUKzkc-ujU-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="4VjblVqr3etUKzkc-ujU-4" target="4VjblVqr3etUKzkc-ujU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VjblVqr3etUKzkc-ujU-4" value="Add data Structures for Classes and Schedules (12 hours)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="890" y="290" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4VjblVqr3etUKzkc-ujU-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="4VjblVqr3etUKzkc-ujU-5" target="4VjblVqr3etUKzkc-ujU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VjblVqr3etUKzkc-ujU-5" value="Add Implementation for Parent Class User (48 hours)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="890" y="420" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4VjblVqr3etUKzkc-ujU-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="4VjblVqr3etUKzkc-ujU-6" target="4VjblVqr3etUKzkc-ujU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VjblVqr3etUKzkc-ujU-6" value="Add Implementation for Child class Student &amp;amp; the functions that go along with it (24 hours)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="640" y="420" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4VjblVqr3etUKzkc-ujU-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="4VjblVqr3etUKzkc-ujU-7" target="4VjblVqr3etUKzkc-ujU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VjblVqr3etUKzkc-ujU-7" value="Do the Same for instructor (12 hours)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="400" y="420" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4VjblVqr3etUKzkc-ujU-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="4VjblVqr3etUKzkc-ujU-8" target="4VjblVqr3etUKzkc-ujU-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VjblVqr3etUKzkc-ujU-8" value="Do the same for Admin (12 hours)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="160" y="420" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4VjblVqr3etUKzkc-ujU-9" value="Test &amp;amp; Debug Entire System (24 hours)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="160" y="530" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4VjblVqr3etUKzkc-ujU-19" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="570" as="sourcePoint" />
+            <mxPoint x="80" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4VjblVqr3etUKzkc-ujU-20" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="570" as="sourcePoint" />
+            <mxPoint x="80" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4VjblVqr3etUKzkc-ujU-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="4VjblVqr3etUKzkc-ujU-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="330" as="sourcePoint" />
+            <mxPoint x="130" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
