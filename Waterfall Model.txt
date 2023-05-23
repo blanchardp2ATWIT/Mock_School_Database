@@ -1,0 +1,19 @@
+Waterfall Model: 
+
+	Decide which programming language to use, Based on the needs of the database for example is performance key or develoment speed. (1 hour)
+		Create coding environment and repository for groupmembers to work in. Once workspace is created for everyone, all members are set to contribute to the codebase. (8 hours)
+			Create a Block Diagram for how the database should operate. This should be detailed enough to allow straight up coding after this step is complete. (8 hours)
+				Start implimenting the processes mentioned in the block diagram 
+					Test and Debug code with fake data to ensure all functions are operational (4 weeks)
+						Upgrade & Maintain database as Schools needs grow. (TBA)
+					
+Incremental Model: 
+
+Decide on Coding language(1 hour) ---> Setup Codebase(1 hour) ---> Create Block Diagram (8 hours) ---> Add data Structures for Classes and Schedules (12 hours) ---> Add Implementation for Parent Class User (48 hours) ---> Add Implementation for Child class Student & the functions that go along with it (24 hours) ---> Do the Same for instructor (12 hours)---> Do the same for Admin (12 hours) ---> Test & Debug Entire System (24 hours)
+
+Integration & Configuration: 
+	
+MySQL is an open source database management system that would cut most of the work behind creating this database out of the picture, most of the development would be interfacing with this database. Once the database is initialized we can connect to it using the mysql.connector python library if that is the language we decide to go with. 
+
+Learning, Integrating & Using MySQL effeciently will most likely take a week, this is because it is open source so you must dig into documentation on how to use this. Once this is done it will take two days to decide on a coding language, set up a repo, then create a block diagram. Actual coding of the entire system is most likely a month long process, Maybe longer. 
+
