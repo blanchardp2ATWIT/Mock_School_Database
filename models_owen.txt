@@ -2,7 +2,7 @@ Waterfall Model:
 
     -Assess programming language suitability based on specific requirements, such as emphasizing performance or development speed. This evaluation should be completed within one hour.
 
-         -Establish a coding environment and repository to facilitate collaboration among group members. Once the workspace is set up for everyone, all members can contribute to the codebase. This setup process should take approximately six hours.
+         -Establish a coding environment and repository to facilitate collaboration among group members. Once the workspace is set up for everyone, all members can contribute to the codebase. This setup process should take approximately one hour.
 
                 -Develop a comprehensive Block Diagram outlining the database's operational structure. The diagram should provide sufficient detail to enable direct coding once this step is finalized. Allocating eight hours to this task is recommended.
 
