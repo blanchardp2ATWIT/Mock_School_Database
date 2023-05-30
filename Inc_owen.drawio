@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2023-05-30T18:00:01.935Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="aMdi2LktSH9ufeGWOg9h" version="21.3.3" type="device">
+  <diagram name="Page-1" id="JosV3SJvah4N3OJGPaXR">
+    <mxGraphModel dx="1221" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Cf4JbKhd1gbVWab7zYkr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cf4JbKhd1gbVWab7zYkr-1" target="Cf4JbKhd1gbVWab7zYkr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4JbKhd1gbVWab7zYkr-1" value="Choose a language for the project" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4JbKhd1gbVWab7zYkr-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cf4JbKhd1gbVWab7zYkr-2" target="Cf4JbKhd1gbVWab7zYkr-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4JbKhd1gbVWab7zYkr-2" value="Test &amp; Debug Entire System" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4JbKhd1gbVWab7zYkr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cf4JbKhd1gbVWab7zYkr-3" target="Cf4JbKhd1gbVWab7zYkr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4JbKhd1gbVWab7zYkr-3" value="Add functionality for Admin" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4JbKhd1gbVWab7zYkr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cf4JbKhd1gbVWab7zYkr-4" target="Cf4JbKhd1gbVWab7zYkr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4JbKhd1gbVWab7zYkr-4" value="Add functionality for Instuctor" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4JbKhd1gbVWab7zYkr-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cf4JbKhd1gbVWab7zYkr-5" target="Cf4JbKhd1gbVWab7zYkr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4JbKhd1gbVWab7zYkr-5" value="Add functionality to the inherited classes, starting with student" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="640" y="160" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4JbKhd1gbVWab7zYkr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cf4JbKhd1gbVWab7zYkr-6" target="Cf4JbKhd1gbVWab7zYkr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4JbKhd1gbVWab7zYkr-6" value="Implement funcionality for the Parent Class" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="720" y="80" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4JbKhd1gbVWab7zYkr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cf4JbKhd1gbVWab7zYkr-7" target="Cf4JbKhd1gbVWab7zYkr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4JbKhd1gbVWab7zYkr-7" value="Outline the data Structures for Classes and for the schedules" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="560" y="80" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4JbKhd1gbVWab7zYkr-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cf4JbKhd1gbVWab7zYkr-8" target="Cf4JbKhd1gbVWab7zYkr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4JbKhd1gbVWab7zYkr-8" value="Create a comprehensive Block Diagram" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4JbKhd1gbVWab7zYkr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cf4JbKhd1gbVWab7zYkr-9" target="Cf4JbKhd1gbVWab7zYkr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4JbKhd1gbVWab7zYkr-9" value="Setup coding environment and repository" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="130" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
