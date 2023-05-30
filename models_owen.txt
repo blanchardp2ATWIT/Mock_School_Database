@@ -7,6 +7,7 @@ Waterfall Model:
                 -Develop a comprehensive Block Diagram outlining the database's operational structure. The diagram should provide sufficient detail to enable direct coding once this step is finalized. Allocating eight hours to this task is recommended.
 
                      -Begin implementing the processes outlined in the Block Diagram, translating the conceptual design into actual code.
+                     
                             -Test and debug the code using simulated data to ensure that all functions are working as intended. This testing phase is estimated to take approximately three weeks, maybe more.
 
                                 -Continuously upgrade and maintain the database to accommodate the evolving needs of the school. The timeline for these upgrades and maintenance activities will be determined as required.
