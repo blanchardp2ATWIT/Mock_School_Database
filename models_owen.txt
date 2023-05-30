@@ -1,0 +1,24 @@
+Waterfall Model: 
+
+    -Assess programming language suitability based on specific requirements, such as emphasizing performance or development speed. This evaluation should be completed within one hour.
+
+         -Establish a coding environment and repository to facilitate collaboration among group members. Once the workspace is set up for everyone, all members can contribute to the codebase. This setup process should take approximately six hours.
+
+                -Develop a comprehensive Block Diagram outlining the database's operational structure. The diagram should provide sufficient detail to enable direct coding once this step is finalized. Allocating eight hours to this task is recommended.
+
+                     -Begin implementing the processes outlined in the Block Diagram, translating the conceptual design into actual code.
+                      Test and debug the code using simulated data to ensure that all functions are working as intended. This testing phase is estimated to take approximately three weeks, maybe more.
+
+                           -Continuously upgrade and maintain the database to accommodate the evolving needs of the school. The timeline for these upgrades and maintenance activities will be determined as required.
+
+
+Incremental Model: 
+
+Choose a language for the project(1 hour) ---> Setup coding environment and repository(1 hour) ---> Create a comprehensive Block Diagram (8 hours) ---> Outline the data Structures for Classes and for the schedules (12 hours) ---> Implement funcionality for the Parent Class (48 hours) ---> Add functionality to the inherited classes, starting with student (12 hours) ---> Add functionality for Instuctor (12 hours)---> Add functionality for Admin (16 hours) ---> Test & Debug Entire System (16 hours)
+
+
+Integration & Configuration Model:
+
+The Integration & Configuration model involves using MySQL, an open-source database management system, to simplify the process of creating a database. Most of the development work will revolve around interacting with this database. To connect to the MySQL database, we can utilize the mysql.connector library in Python (if that is the chosen programming language).
+Getting familiar with MySQL, integrating it into the project, and using it efficiently will likely require about a week of learning and exploration. Since MySQL is open source, it is necessary to refer to documentation to understand its usage. After this initial phase, it will take approximately two days to decide on the coding language, set up a repository, and create a block diagram.
+The actual coding of the entire system is expected to be a month-long process, possibly even longer.
