@@ -5,7 +5,7 @@ Waterfall Model:
 			Create a Block Diagram for how the database should operate. This should be detailed enough to allow straight up coding after this step is complete. (8 hours)
 				Start implimenting the processes mentioned in the block diagram 
 					Test and Debug code with fake data to ensure all functions are operational (4 weeks)
-						Upgrade & Maintain database as Schools needs grow. (TBA)
+						Upgrade & Maintain database as School's needs grow. (TBA)
 					
 Incremental Model: 
 
