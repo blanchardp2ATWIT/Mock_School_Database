@@ -10,7 +10,7 @@ Waterfall Model:
                      
                             -Test and debug the code using simulated data to ensure that all functions are working as intended. This testing phase is estimated to take approximately three weeks, maybe more.
 
-                                -Continuously upgrade and maintain the database to accommodate the evolving needs of the school. The timeline for these upgrades and maintenance activities will be determined as required.
+                                -Continuously upgrade and maintain the database to accommodate the changing needs of the school. The timeline for these upgrades and maintenance activities will be determined as required.
 
 
 Incremental Model: 
