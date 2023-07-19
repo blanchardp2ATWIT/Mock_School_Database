@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f0badaa6-079c-4547-a70e-f128c99cac20" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auto_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_sequence.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_sequence.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +67,8 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\blanchardp2\AppData\Local\Microsoft\WindowsApps\python3.8.exe" />
-      <option name="SDK_NAME" value="Python 3.8" />
+      <option name="SDK_HOME" value="C:\Users\Patrick\Documents\PyCharm Projects\Applied Programming\Assignment 5\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.9 (Assignment 5)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -80,6 +82,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.auto_test" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.auto_test" />
