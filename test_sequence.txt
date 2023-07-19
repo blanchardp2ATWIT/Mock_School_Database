@@ -1,0 +1,1 @@
+Student,Patrick,Blanchard,add,0006,1,Instructor,Nelson,Patrick,3,Admin,Vera,Rubin,4,add,0008,Network Theory 2,BSEE,10:00-11:50,MWF,Spring,2024,4,Basnet,5,6,0008
