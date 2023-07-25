@@ -9,7 +9,8 @@ menu_options ='''
 4) Add/Remove Courses from System
 5) Search All Courses
 6) Search Course By CRN Number
-7) Quit
+7) Adjust Student Schedule
+8) Quit
 '''
 
 
@@ -103,6 +104,40 @@ class Instructor(User):
 class Admin(User):
     def print_name(self):
         print("{} {}".format(self.firstname, self.lastname))
+
+    def add_user(self, cursor):
+        table = input("Which type of user would you like to add, Admin, Instructor or Student").lower()
+        if table == "instructor":
+            eye_dee = input("ID of the new Instructor: ")
+            name = input("Name of the new Instructor: ")
+            Surname = input("Surname of the new Instructor")
+            Title = input("Title of the new Instructor: ")
+            hireyear = input("When was the admin Instructor: ")
+            department = input("Department of the new Instructor: ")
+            email = input("Email of the new Instructor")
+            cursor.execute("INSERT INTO INSTRUCTOR VALUES ('{}', '{}', '{}', '{}', '{}', '{}','{}')".format(eye_dee, name, Surname, Title, hireyear, department, email))
+    def add_remove_student_course(self, cursor):
+        action = input("Would you like to add or remove a course: ").lower()
+        eye_dee = input("What is the students ID")
+        if action == 'add':
+            crn_add = input("What is the CRN of the Course you would like to add: ")
+            cursor.execute("SELECT CLASSES FROM STUDENT WHERE ID = '{}'".format(eye_dee))
+            current_classes = cursor.fetchone()[0]
+            new_value = current_classes + crn_add + ","
+            cursor.execute("UPDATE STUDENT SET CLASSES = '{}' WHERE ID = '{}'".format(new_value, eye_dee))
+        elif action == 'remove':
+            crn_remove = input("What is the CRN of the Course you would like to remove: ")
+            cursor.execute("SELECT CLASSES FROM STUDENT WHERE ID = '{}'".format(eye_dee))
+            current_classes = cursor.fetchone()[0]
+            current_classes = current_classes.strip().split(',')
+            new_class_list = []
+            for classes in current_classes:
+                if classes != crn_remove:
+                    new_class_list.append(classes)
+            new_class_list = list_to_string(new_class_list)
+            cursor.execute("UPDATE STUDENT SET CLASSES = '{}' WHERE ID = '{}'".format(new_class_list, eye_dee))
+
+
 
     def add_remove_courses(self, cursor):
         action = input("Would you like to add or remove courses from the system: ").lower()
@@ -200,6 +235,10 @@ def main():
                 temp = input("What is the CRN of the Class you are looking for: ")
                 user.print_classes_from_crn(cur, temp)
             elif command == "7":
+                user.add_remove_student_course(cur)
+            elif command == "8":
+
+            elif command == "9":
                 sql_handle.commit()
                 sql_handle.close()
                 return
