@@ -2,7 +2,7 @@ import sqlite3
 
 Current_Student_Amount = 10
 
-menu_options ='''
+menu_options = '''
 1) Logout
 2) Add/Remove Course From Semester Schedule
 3) Assemble and print course Roster 
@@ -10,7 +10,8 @@ menu_options ='''
 5) Search All Courses
 6) Search Course By CRN Number
 7) Adjust Student Schedule
-8) Quit
+8) Add User
+9) Quit
 '''
 
 
@@ -106,16 +107,41 @@ class Admin(User):
         print("{} {}".format(self.firstname, self.lastname))
 
     def add_user(self, cursor):
-        table = input("Which type of user would you like to add, Admin, Instructor or Student").lower()
+        table = input("Which type of user would you like to add, Admin, Instructor or Student: ").lower()
         if table == "instructor":
             eye_dee = input("ID of the new Instructor: ")
             name = input("Name of the new Instructor: ")
             Surname = input("Surname of the new Instructor")
             Title = input("Title of the new Instructor: ")
-            hireyear = input("When was the admin Instructor: ")
+            hireyear = input("When was the Instructor hired: ")
             department = input("Department of the new Instructor: ")
-            email = input("Email of the new Instructor")
-            cursor.execute("INSERT INTO INSTRUCTOR VALUES ('{}', '{}', '{}', '{}', '{}', '{}','{}')".format(eye_dee, name, Surname, Title, hireyear, department, email))
+            email = input("Email of the new Instructor: ")
+            cursor.execute(
+                "INSERT INTO INSTRUCTOR VALUES ('{}', '{}', '{}', '{}', '{}', '{}','{}')".format(eye_dee, name, Surname,
+                                                                                                 Title, hireyear,
+                                                                                                 department, email))
+        elif table == "student":
+            eye_dee = input("ID of the new student: ")
+            name = input("Name of the new student: ")
+            Surname = input("Surname of the new student")
+            gradyear = input("Grad year of Student: ")
+            department = input("Department of the new student: ")
+            classes = input(",")
+            cursor.execute(
+                "INSERT INTO STUDENT VALUES ('{}', '{}', '{}', '{}', '{}', '{}')".format(eye_dee, name, Surname,
+                                                                                                 gradyear, department,classes))
+
+        elif table == "admin":
+            eye_dee = input("ID of the new Admin: ")
+            name = input("Name of the new Admin: ")
+            Surname = input("Surname of the new Admin")
+            Title = input("Title of Admin: ")
+            Office = input("Office of the new Admin: ")
+            email = Surname + name[0]
+            cursor.execute(
+                "INSERT INTO ADMIN VALUES ('{}', '{}', '{}', '{}', '{}', '{}')".format(eye_dee, name, Surname,
+                                                                                         Title, Office, email))
+
     def add_remove_student_course(self, cursor):
         action = input("Would you like to add or remove a course: ").lower()
         eye_dee = input("What is the students ID")
@@ -136,8 +162,6 @@ class Admin(User):
                     new_class_list.append(classes)
             new_class_list = list_to_string(new_class_list)
             cursor.execute("UPDATE STUDENT SET CLASSES = '{}' WHERE ID = '{}'".format(new_class_list, eye_dee))
-
-
 
     def add_remove_courses(self, cursor):
         action = input("Would you like to add or remove courses from the system: ").lower()
@@ -237,7 +261,7 @@ def main():
             elif command == "7":
                 user.add_remove_student_course(cur)
             elif command == "8":
-
+                user.add_user(cur)
             elif command == "9":
                 sql_handle.commit()
                 sql_handle.close()
